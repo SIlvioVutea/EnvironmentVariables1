@@ -1,0 +1,5 @@
+server:
+  port: 4500
+myCustomVarTree:
+  authCode: xyz458
+  devName: Alessio
