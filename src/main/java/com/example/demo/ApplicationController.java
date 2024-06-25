@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-public class BasicController {
+public class ApplicationController {
 
     @Autowired
     private Environment environment;
+
 
     @GetMapping
     public String greetings(){
